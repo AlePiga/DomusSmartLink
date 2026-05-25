@@ -1,0 +1,12 @@
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/Sensore.java
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/JsonVentilatore.java
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/JsonToArduino.java
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/Server.java
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/HandlerStart.java
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/DB.java
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/Temperatura.java
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/HandlerLed.java
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/DomoticaCLI.java
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/HandlerVentilatore.java
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/Main.java
+/home/alepiga/ServerBrokerDomotica/src/main/java/org/example/JsonArduino.java

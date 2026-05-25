@@ -1,0 +1,13 @@
+org/example/Main.class
+org/example/Server.class
+org/example/DomoticaCLI.class
+org/example/HandlerVentilatore.class
+org/example/DB.class
+org/example/JsonArduino.class
+org/example/Sensore.class
+org/example/JsonToArduino.class
+org/example/Temperatura.class
+org/example/HandlerLed.class
+org/example/HandlerStart.class
+org/example/JsonVentilatore.class
+org/example/DomoticaCLI$1.class
