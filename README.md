@@ -1,3 +1,5 @@
+![alt text](https://github.com/AlePiga/DomusSmartLink/blob/main/DomusSmartLink.jpg)
+
 # Domus Smart Link
 
 Domus Smart Link è un sistema completo di domotica IoT che integra:
