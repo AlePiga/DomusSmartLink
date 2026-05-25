@@ -17,7 +17,7 @@ Il sistema consente di monitorare e controllare dispositivi smart home tramite p
 ```
 ┌─────────────────┐         ┌──────────────────┐         ┌──────────────┐
 │   Arduino Mega  │◄───────►│  Broker MQTT     │◄───────►│ App Android  │
-│                 │  WiFi   │  (Java Server)   │  MQTT   │  (Kotlin)    │
+│                 │  WiFi   │  (Server Java)   │  MQTT   │ (Kotlin)     │
 │ - DHT11         │  MQTT   │                  │         │              │
 │ - Sensori       │         │ - Database       │         │ - UI Modern  │
 │ - LED           │         │ - HTTP REST API  │         │ - Control UI │
