@@ -34,8 +34,8 @@ DHT dht(DHTPIN, DHTTYPE);
 SevSeg sevseg;
 
 // Credenziali Wi-Fi e MQTT
-String WIFI_SSID = "<WIFI_SSID>";
-String WIFI_PASS = "<WIFI_PASS>";
+String WIFI_SSID = "iPhone di Alessandro";
+String WIFI_PASS = "weirdfishes2";
 String MQTT_BROKER = "";
 const int   MQTT_PORT = 1883;
 
@@ -94,9 +94,9 @@ void setup() {
 
   // LCD
   lcd.begin(16, 2);
-  lcd.print("Esegui config su");
-  lcd.setCursor(0, 1);
-  lcd.print("monitor seriale");
+  // lcd.print("Esegui config su");
+  // lcd.setCursor(0, 1);
+  // lcd.print("monitor seriale");
   // Aspetta che la porta seriale sia pronta (utile su alcune schede come Arduino Leonardo/Mega/ESP32)
   while (!Serial) { ; } 
 

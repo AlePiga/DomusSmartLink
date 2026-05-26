@@ -287,7 +287,7 @@ fun SensorCard(s: Sensore, sensori: SnapshotStateList<Sensore>, index: Int) {
                         s.type == "Ventilatore" -> "Ventola"
                         s.nome.equals("Temperatura", true) -> "DHT11"
                         s.nome.equals("Umidità", true) -> "DHT11"
-                        s.nome.equals("Livello dell'acqua", true) -> "Sensore di profondità liquidisketch_may7a"
+                        s.nome.equals("Livello dell'acqua", true) -> "Sensore di profondità liquidi"
                         else -> s.type
                     },
                     color = Color.White.copy(alpha = 0.5f),
@@ -303,7 +303,7 @@ fun SensorCard(s: Sensore, sensori: SnapshotStateList<Sensore>, index: Int) {
                     when {
                         s.nome.equals("Temperatura", true) -> TemperatureDisplay(s)
                         s.nome.equals("Umidità", true) -> HumidityDisplay(s)
-                        s.nome.equals("Acqua", true) -> WaterLevelDisplay(s)
+                        s.nome.equals("Livello dell'acqua", true) -> WaterLevelDisplay(s)
                         else -> NumberDisplay(s)
                     }
                 }
@@ -362,12 +362,17 @@ fun HumidityDisplay(s: Sensore) {
 
 @Composable
 fun WaterLevelDisplay(s: Sensore) {
+    // Converti in cm (es. 5 → 0,05 cm)
+    val valueInCm = s.status.toDouble() / 100.0
+    // Formatta con 2 decimali e virgola
+    val formattedValue = String.format("%.2f", valueInCm).replace('.', ',')
+
     Surface(
         shape = RoundedCornerShape(12.dp),
         color = Color(0xFF2196F3).copy(alpha = 0.2f)
     ) {
         Text(
-            text = "${s.status}%",
+            text = "$formattedValue cm",
             modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
             fontSize = 20.sp,
             fontWeight = FontWeight.Bold,
