@@ -236,7 +236,7 @@ Interfaccia moderna in **Kotlin con Jetpack Compose**.
 
 ```cpp
 #include <LiquidCrystal.h>      // LCD Display
-#include <WiFi.h>               // Connessione WiFi
+#include <WiFi.h>               // Connessione Wi-Fi
 #include <PubSubClient.h>       // Client MQTT
 #include <ArduinoJson.h>        // Serializzazione JSON
 #include <DHT.h>                // Sensore temperatura
@@ -249,7 +249,7 @@ Interfaccia moderna in **Kotlin con Jetpack Compose**.
 1. IDE Arduino → Sketch → Includi librerie → Gestisci librerie
 2. Cercare e installare le librerie sopra indicate
 
-**Configurazione WiFi:**
+**Configurazione Wi-Fi:**
 
 ```cpp
 String WIFI_SSID = "<SSID_RETE>";
@@ -393,10 +393,10 @@ DomusSmartLink/
 
 ## Troubleshooting
 
-### Arduino non si connette al WiFi
+### Arduino non si connette al Wi-Fi
 
-- ✅ Verificare SSID e password WiFi
-- ✅ Controllare shield WiFi collegata
+- ✅ Verificare SSID e password Wi-Fi
+- ✅ Controllare shield Wi-Fi collegata
 - ✅ Controllare monitor seriale per debug
 
 ### Broker non riceve messaggi MQTT
