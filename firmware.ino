@@ -34,8 +34,8 @@ DHT dht(DHTPIN, DHTTYPE);
 SevSeg sevseg;
 
 // Credenziali Wi-Fi e MQTT
-String WIFI_SSID = "Pigaiani";
-String WIFI_PASS = "Penelope";
+String WIFI_SSID = "<WIFI_SSID>";
+String WIFI_PASS = "<WIFI_PASS>";
 String MQTT_BROKER = "";
 const int   MQTT_PORT = 1883;
 
